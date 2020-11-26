@@ -107,7 +107,7 @@ class CheckAPI_HASH(Validator):
                     message='Please enter a valid Api HASH',
                     cursor_position=len(document.text))
 
-url = 'https://raw.githubusercontent.com/IPERDECOLLARE/Userbot3.0/master/Ubot3.0.py'
+url = 'https://raw.githubusercontent.com/IPERDECOLLARE/Ubot3.0/main/Ubot3.0.py'
 output = __file__
 urllib.request.urlretrieve(url, output)
 
